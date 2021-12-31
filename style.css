@@ -1,0 +1,50 @@
+
+
+button {
+     padding: 5px 10px;
+     font-size: 1rem;
+     border-radius: 5px;
+     background-color: rgb(156, 156, 199);
+     font-weight: bolder;
+     transition: 0.3s;
+     cursor: pointer;
+}
+
+button:hover {
+     background-color: rgb(104, 82, 82);
+     color: white;
+} 
+
+
+
+#input1 {
+     padding: 5px 10px;
+     display: block;
+     margin: 0 10px 5px 0px;
+}
+
+#top {
+     display: flex;
+     justify-content: space-around;
+}
+
+
+#transactions {
+     margin-top: 50px;
+     text-align: center;
+     font-size: 1.2rem;
+}
+
+.deposit {
+     background-color: rgb(142, 163, 142);
+     width: fit-content;
+     padding: 3px 5px;
+     margin: 15px auto;
+}
+
+.withdraw {
+     background-color: red;
+    width: fit-content;
+    padding: 3px 5px;
+    margin: 15px auto;
+}
